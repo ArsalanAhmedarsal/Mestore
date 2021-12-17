@@ -1,0 +1,142 @@
+.footer-bg {
+    height: 550px;
+    background-image: url(Imgs/footer-bg.png);
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+.footer-wraper {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.footer-col-25 {
+    width: 25%;
+    /* border: 1px solid rgb(56, 68, 238); */
+}
+
+.footer-wraper {
+    display: flex;
+    color: white;
+}
+
+.footer-nav-wraper {
+    padding-bottom: 60px;
+}
+
+.company-info {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+}
+
+.company-info ul li {
+    padding: 5px 0px;
+    list-style: none;
+    font-size: 14px;
+}
+
+.footer-headig {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-content p {
+    padding-right: 50px;
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.My-Account, .follow-us-social {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.My-Account ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-copyright li a, .footer-nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.My-Account ul li a:hover, .footer-nav li a:hover, .follow-us-social ul li a:hover, ul.payment-methords-icon li i:hover {
+    color: black;
+    transition: all 0.3s;
+}
+
+.My-Account .follow-us-social li a {
+    text-decoration: none;
+}
+
+.My-Account ul li, .follow-us-social ul li {
+    list-style: none;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+.My-Account ul li:first-child, .follow-us-social ul li:first-child {
+    padding-top: 0px;
+}
+
+.follow-us-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.follow-us-social ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.Follow-us h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.payment-methords-icon {
+    flex-wrap: wrap;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-methords-icon li {
+    cursor: pointer;
+    padding: 0 5px;
+    list-style: none;
+    font-size: 30px;
+}
+
+.footer-nav li, .footer-copyright li {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    cursor: pointer;
+    list-style: none;
+}
+
+.footer-nav li {
+    padding: 0px 20px;
+}
+
+.footer-nav, .footer-copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+    color: white;
+}
+
+.footer-copyright li {
+    padding: 0px 8px;
+}
+
+.footer-copyright li:nth-child(2) {
+    border-right: 1px solid white;
+}

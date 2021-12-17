@@ -1,0 +1,421 @@
+@media only screen and (max-width: 1170px) {
+    .container, .body-white {
+        width: 100%;
+    }
+    .navigation-wraper {
+        padding: 0 15px;
+    }
+    .footer-wraper {
+        justify-content: center;
+    }
+    .top-nav-wrpaer {
+        padding: 20px 15px;
+    }
+    .footer-col-25 {
+        width: 23%;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .summer-sale {
+        display: none;
+    }
+    .promotion-box-33 {
+        width: 45%;
+        margin: 0 20px
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .small-banner-content p {
+        width: 80%;
+    }
+}
+
+/* .main-heading {
+        width: 45%;
+    }
+
+    .main-heading h1{
+        font-size: 80px;
+    }
+
+    .main-heading span{
+        font-size: 80px;
+    }
+
+    .main-heading h2 {
+        font-size: 80px;
+} */
+
+@media only screen and (max-width: 768px) {
+    .container, .body-white {
+        width: 100%;
+    }
+    .footer-bg {
+        height: inherit;
+    }
+    .owl-carousel-latest .owl-nav {
+        display: none !important;
+    }
+    .btn-primary {
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .service-box-33 h2 {
+        font-size: 26px;
+    }
+    .small-banner-content .btn-primary {
+        margin-top: 0;
+    }
+    .products-box-25 .price {
+        font-size: 16px;
+    }
+    .top-nav-wrpaer {
+        padding: 20px 20px;
+    }
+    .top-nav-email {
+        text-align: center;
+    }
+    .logo {}
+    .nav-bar {
+        width: 100%;
+        text-align: center;
+    }
+    .main-heading {
+        width: 55%;
+        text-align: center;
+        top: -120px;
+        left: 43px;
+        position: absolute;
+    }
+    .main-heading h1 {
+        font-size: 60px;
+    }
+    .main-heading span {
+        font-size: 57px;
+    }
+    .main-heading h2 {
+        margin-left: 43px;
+        letter-spacing: 31px;
+    }
+    .small-banner-left, .small-banner-right {
+        height: 190px;
+    }
+    .small-banner-content {
+        padding: 0px 30px;
+    }
+    .small-banner-content h2 {
+        line-height: 25px;
+        font-size: 30px;
+    }
+    .small-banner-content p {
+        width: 100%;
+    }
+    .btn-primary {
+        padding: 5px 12px;
+    }
+    .cards-wraper {
+        flex-flow: wrap;
+        padding-bottom: 0px;
+    }
+    .img-card {
+        margin-top: 30px;
+    }
+    .featured-heading {
+        margin-bottom: 0px;
+    }
+    .promotion-box-33 {
+        width: 50%;
+    }
+    .promotion-box-33 h2 {}
+    .summer-sale {
+        display: none;
+    }
+    .for-responsive {
+        padding: 35px 0;
+        text-align: center;
+    }
+    .promotion-wraper {
+        margin-top: 35px;
+        border-bottom: none;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .footer-wraper {
+        padding: 40px 20px;
+        flex-flow: wrap;
+    }
+    .footer-col-25 {
+        width: 32%;
+    }
+    .footer-nav-wraper {
+        padding-bottom: 40px;
+    }
+    .footer-responsive {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .owl-carousel-latest .owl-dots {
+        display: none !important;
+    }
+    .owl-nav {
+        padding-top: 30px;
+    }
+    .owl-carousel-logo .owl-nav {
+        padding: 0;
+    }
+    .promotion-box-33 h2 {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    .free-shipping-box h2, .free-shipping-box p {
+        display: none;
+    }
+    .main-heading p {
+        margin-bottom: 15px;
+    }
+    .hero-section {
+        height: 650px;
+    }
+    .main-heading {
+        top: -72px
+    }
+    .free-refund-box h2, .free-refund-box p {
+        display: none;
+    }
+    .free-support-box h2, .free-support-box p {
+        display: none;
+    }
+    .small-banner-wraper {
+        margin-top: 0;
+    }
+    .payment-methords-icon li {
+        padding: 0 2px;
+    }
+    .top-nav-wrpaer {
+        display: none;
+    }
+    .navigation-wraper {
+        flex-direction: column;
+        padding: 20px 8px;
+    }
+    .search-icon, .cart-icon {
+        display: none !important;
+    }
+    .logo {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .small-banner-wraper {
+        flex-direction: column;
+    }
+    .payment-methords-icon {
+        justify-content: start;
+    }
+    .news-letter-input {
+        width: 100%;
+    }
+    .main-heading {
+        top: -100px
+    }
+    .small-banner-left {
+        width: 100%;
+        height: 270px;
+    }
+    .small-banner-right {
+        width: 100%;
+        margin-top: 25px;
+        height: 270px;
+    }
+    .payment-methords-icon {
+        flex-wrap: wrap;
+    }
+    .footer-col-25 {
+        width: 100%;
+    }
+    .footer-nav li {
+        padding: 0px 7px;
+    }
+    .footer-copyright li {
+        padding: 2px 5px;
+    }
+    .hide-on-responsice {
+        display: none;
+    }
+    .promotion-box-33 {
+        width: 100%;
+    }
+    .follow-us-social {
+        justify-content: start;
+    }
+    .social-icon-margin {
+        margin-left: 25px;
+    }
+    .promotion-box-33 h2 {
+        padding-top: 50px;
+    }
+    .small-banner-content h2 {
+        line-height: 45px;
+        font-size: 50px;
+    }
+    .small-banner-content p {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .small-banner-content h2 {
+        line-height: 30px;
+        font-size: 36px;
+    }
+    .small-banner-content p {
+        width: 80%;
+    }
+    .main-heading {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .top-nav-wrpaer {
+        display: none;
+    }
+    .main-heading h1 {
+        font-size: 40px;
+    }
+    .main-heading h1 span {
+        font-size: 37px;
+    }
+    .main-heading h2 {
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    .main-heading {
+        width: 75%;
+        left: 20px;
+    }
+    .products-heading p, .featured-heading p {
+        text-align: center;
+    }
+    .hide-on-responsice {
+        display: none;
+    }
+    .promotion-box-33 {
+        width: 100%;
+    }
+    #menuToggle {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .service-box-33 i {
+        padding: 15px;
+    }
+    .nav-bar ul i {
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .service-wraper {
+        align-items: center;
+        top: 0;
+        position: relative;
+        flex-direction: column;
+        display: flex;
+    }
+    .service-box-33 {
+        width: 100%;
+    }
+    .service-box-33:last-child {
+        padding-bottom: 30px;
+    }
+    .free-shipping-box h2, .free-shipping-box p {
+        display: flex;
+    }
+    .free-refund-box h2, .free-refund-box p {
+        display: flex;
+    }
+    .free-support-box h2, .free-support-box p {
+        display: flex;
+    }
+    .promotion-box-33 {
+        width: 100%;
+    }
+    .hide-on-responsice {
+        display: none;
+    }
+    .footer-col-25 {
+        width: 100%;
+    }
+    .footer-nav li {
+        padding: 0px 7px;
+    }
+    .footer-copyright li {
+        padding: 2px 5px;
+    }
+    .top-nav-wrpaer {
+        display: none;
+    }
+    .payment-methords-icon {
+        justify-content: start;
+    }
+    .small-banner-left, .small-banner-right {
+        height: 190px;
+        width: 100%;
+    }
+    .small-banner-wraper {
+        margin-top: 0px;
+        flex-flow: wrap;
+        padding: 0px 0px;
+    }
+    .small-banner-right {
+        margin-top: 20px;
+    }
+    .products-heading p {
+        text-align: center;
+    }
+    .featured-heading p {
+        text-align: center;
+        padding: 0 20px
+    }
+    input[type=text], select {
+        width: 90%;
+    }
+    .news-lette .btn-primary {
+        width: 90%;
+    }
+    .featured-heading {
+        padding: 20px 10px 0 10px;
+    }
+    .main-heading h1 {
+        font-size: 40px;
+    }
+    .main-heading h1 span {
+        font-size: 37px;
+    }
+    .main-heading h2 {
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    .main-heading {
+        width: 75%;
+        left: 20px;
+    }
+    .hero-section {
+        background-size: cover;
+    }
+    .footer-nav, .footer-copyright {
+        font-size: 12px;
+    }
+    .products-heading {
+        padding: 0 10px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+s {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #6b6b6b;
+    padding: 0 3px;
+   
+}
+
+
+.container-fluid {
+    width: 100%;
+    background-color: rgba(255 255 255 / 37%);
+    position: absolute;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.top-nav-wrpaer {
+    display: flex;
+    border-bottom: 1px solid #565e61;
+    padding: 20px 0px;
+}
+
+.top-nav-welcome, .top-nav-email {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 33%;
+}
+
+.top-nav-email a {
+    text-decoration: none;
+    color: #222222;
+    font-weight: 700;
+}
+
+.top-nav-options .eu span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #222222;
+}
+
+.logo {
+    width: 33%;
+}
+
+.logo h1 {
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.nav-bar {
+    cursor: pointer;
+    width: 67%;
+    text-align: end;
+}
+
+.nav-bar li {
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo a, .nav-bar li a{
+   text-decoration: none;
+}
+
+.nav-bar li a:visited{
+    color: #222222;
+
+ }
+
+.logo a:visited {
+    color: #222222;
+}
+
+.top-nav-options {
+    width: 33%;
+    text-align: right;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.navigation-wraper {
+    display: flex;
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary {
+    width: 156px;
+    height: 47px;
+    background-color: #f92349;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
